@@ -1,66 +1,136 @@
 # Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+## Date: 11.11.2025
+## Reg. No: 212222080013
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+AIM
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+To demonstrate how various prompting techniques—such as query decomposition, decision-making, semantic filtering, chain-of-thought, and persona prompting—can be used to create different forms of content (reports, articles, case studies, comics, etc.) using AI models. The aim is to analyze how these prompt structures influence the quality, coherence, creativity, and organization of the generated output.
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+INTRODUCTION
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+Prompt engineering determines how effectively an AI model generates content. Strong, well-structured prompts bring clarity and depth, whereas vague prompts can lead to inaccurate or shallow output. This experiment explores multiple prompting patterns and their impact on content creation across different formats—reports, articles, case studies, and creative formats.
+
+PROMPT PATTERNS USED
+
+Below are the prompting strategies demonstrated in the experiment:
+
+1. Query Decomposition Prompting
+
+This approach breaks a complex request into simpler sub-tasks.
+Purpose: Improves accuracy by allowing the model to address each component step-by-step.
+
+2. Decision-Making Prompting
+
+The model is instructed to analyze options and choose the most appropriate direction.
+Purpose: Useful in scenario analysis, case studies, strategies, and recommendations.
+
+3. Semantic Filtering Prompting
+
+User specifies the style, tone, scope, and exclusions.
+Purpose: Ensures the content matches specific constraints and remains relevant.
+
+4. Chain-of-Thought Prompting
+
+Prompts instruct the model to “think step-by-step.”
+Purpose: Enhances logical flow, reasoning, and coherence.
+
+5. Persona-Based Prompting
+
+The model assumes a role (e.g., professor, researcher, journalist).
+Purpose: Helps maintain consistent tone and expert-level delivery.
+
+EXPERIMENT ALGORITHMS
+
+Step 1: Select a Content Topic
+
+For demonstration, we use the topic “Impact of Artificial Intelligence in Healthcare.”
+
+Step 2: Apply Each Prompt Pattern
+Outputs & Analysis
+A. Using Query Decomposition
+
+Prompt:
+“Break the topic into: (1) Introduction, (2) Key AI applications, (3) Benefits, (4) Challenges, (5) Conclusion. Generate each section with 150 words.”
+
+Output Quality:
+
+Highly structured
+
+Comprehensive
+
+Minimal missing details
+Use Case: Reports, academic assignments
+
+B. Using Decision-Making Prompting
+
+Prompt:
+“Identify the three most impactful AI applications in healthcare and justify why they are more significant than others. Then write a short article based on your decision.”
+
+Output Quality:
+
+Prioritizes information
+
+Includes justification
+
+Produces analytical content
+Use Case: Case studies, analytical reports
+
+C. Using Semantic Filtering
+
+Prompt:
+“Write a 500-word article on AI in healthcare. Maintain a neutral tone, avoid technical jargon, exclude mentions of robotics, and focus only on diagnosis and prediction.”
+
+Output Quality:
+
+Controlled scope
+
+High relevance
+
+Follows restrictions precisely
+Use Case: Articles for general audiences, blogs
+
+D. Using Chain-of-Thought Prompting
+
+Prompt:
+“Explain step-by-step how AI improves early disease detection. Then convert the reasoning into a 300-word report section.”
+
+Output Quality:
+
+Deep logical reasoning
+
+Clear explanation
+
+More coherence
+Use Case: Research explanations, academic reports
+
+E. Using Persona Prompting
+
+Prompt:
+“Act as a senior medical researcher and write a case study on how AI helped reduce diagnostic errors in a hospital.”
+
+Output Quality:
+
+Strong professional tone
+
+Domain-specific language
+
+Reads like a real case study
+Use Case: Case studies, professional reports
+
+CONCLUSION
+
+* Different prompt patterns significantly affect the quality, structure, and tone of content generated by AI models.
+
+* Query decomposition ensures completeness and structure.
+
+* Decision-making prompts improve analytical depth.
+
+* Semantic filtering maintains relevance and avoids unwanted content.
+
+* Chain-of-thought enhances reasoning quality.
+
+*  Persona prompting delivers expert-level writing with consistent voice.
+
+* By strategically selecting the prompt pattern, creators can generate high-quality reports, articles, case studies, and even creative formats like comic plots. This demonstrates that prompt engineering is a powerful skill essential for effective AI-assisted content creation.
